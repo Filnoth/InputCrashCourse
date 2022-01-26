@@ -1,0 +1,60 @@
+{
+    "name": "JoystickInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9d4b96a9-4f3b-46f2-8b68-a0c6da47dbc2",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "6614ca93-a9ed-467d-8dcf-103e27d8f85b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1cafbd4e-8879-4f74-80d0-3cf6490b9e4d",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ProgressBar",
+            "id": "84a4b899-7fe0-4a1d-842f-f71e20e0d916",
+            "actions": [
+                {
+                    "name": "Charge",
+                    "type": "Button",
+                    "id": "5b1ad4c0-5c17-44e9-8116-69299b1bf991",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31a3ac9d-e562-42d6-99b5-8f616bce7610",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Charge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
